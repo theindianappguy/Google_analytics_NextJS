@@ -12,13 +12,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-K5STSPVGTM"></Script>
-        <Script id="google-analytics">
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-E07T9XQ648"></Script>
+        <Script>
           {`window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
 
-          gtag('config', 'G-K5STSPVGTM');`}         
+          gtag('config', 'G-E07T9XQ648');`}
         </Script>
       </head>
       <body>{children}</body>
