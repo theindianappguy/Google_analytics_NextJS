@@ -21,13 +21,13 @@ export default function RootLayout({
           gtag('config', 'G-K5STSPVGTM');`}
         </Script> */}
 
-        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-L17M5S7FWN"></Script>
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-5F6N3RMC15"></Script>
         <Script id="google-analytics">
           {`window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
 
-          gtag('config', 'G-L17M5S7FWN');`}
+          gtag('config', 'G-5F6N3RMC15');`}
         </Script>
       </head>
       <body>{children}</body>
