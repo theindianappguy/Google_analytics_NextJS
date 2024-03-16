@@ -1,7 +1,7 @@
-export default function View(){
+export default function About(){
     return(
         <div>
-            <h1>Hello, Its View page</h1>
+            <h1>Hello, Its view page</h1>
         </div>
     )
 }
