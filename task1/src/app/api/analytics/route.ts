@@ -4,8 +4,8 @@ import { NextResponse } from "next/server";
 const propertyId = process.env.GA_PROPERTY_ID;
 const key = process.env.GA_PRIVATE_KEY ?? "";
 const DAYS = 7;
-const key1 = Buffer.from(key, "base64").toString()
-console.log(Buffer.from(process.env.PROJECT_ID ?? "", "base64").toString())
+// const key1 = Buffer.from(key, "base64").toString()
+// console.log(Buffer.from(process.env.PROJECT_ID ?? "", "base64").toString())
 const analyticsDataClient = new BetaAnalyticsDataClient({
   credentials: {
     // project_id: JSON.parse(Buffer.from(process.env.PROJECT_ID ?? "", "base64").toString()),
